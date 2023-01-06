@@ -156,4 +156,55 @@ section.content::after {
     clear: both;
 }
 
-/* Code here */
+.video {
+    float: left;
+    width: 350px;
+    margin: 30px;
+}
+
+.video-thumbnail {
+    position: relative;
+}
+
+/* .video:hover .video-thumbnail::after {
+    content: '12:13';
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+.video .video-thumbnail img {
+    max-width: 100%;
+}
+
+.video-bottom {
+    margin-top: 20px;
+}
+
+.video-logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.video-logo img {
+    max-width: 100%;
+}
+
+.video-text {
+    float: left;
+    width: (100% - 50px);
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.video-text h3 {
+    color: #333333;
+}
+
+.video-text p {
+    margin-top: 5px;
+    color: #606060;
+}
